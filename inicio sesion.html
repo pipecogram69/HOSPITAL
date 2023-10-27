@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="inicio_sesion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <form action="">
+            <img src="corazon.svg" alt="">
+            <h1 >  HOSPITAL</h1>
+            <div class="input-box">
+                <input type="text"  id="Usuario"   placeholder="Usuario" required>
+                <i class="fa-solid fa-user"></i>
+        
+            </div>
+            <div class="input-box">
+                <input type="password" id="Contraseña"   placeholder="Contraseña" required>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="remember-forgot">
+            <label><input type="checkbox">  recordar contraseña 
+            </label>
+            <div class="boton1">
+            <a href="#">  ¿olvido su contraseña?</a>
+        </div>
+        </div>
+<div class="contenedor1"> 
+    <a href="home_paciente.html" id="f" type="submit" class="btn"   onclick="validarCampos()" >paciente</a>
+        <a href="home_doctor.html" id="f" type="submit" class="btn"   onclick="validarCampos()" >Medico</a>
+    </div>
+        <div class="register-link">
+            <p>no tengo una cuenta  <a 
+            href="registro.html">registrarse</a> </p> 
+            <script src="script.js"></script>
+
+            
+            
+        </div>
+        </form>
+
+    </div>
+</body>
+</html>

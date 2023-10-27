@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.home-medico * {
+  box-sizing: border-box;
+}
+.home-medico {
+  background: #ffe4e1;
+  width: 428px;
+  height: 926px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-9 {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 17px 10px 17px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 138px;
+  height: 126px;
+  position: absolute;
+  left: 55px;
+  top: 548px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.doctor-1 {
+  flex-shrink: 0;
+  width: 77px;
+  height: 56px;
+  position: relative;
+}
+.historias-clinicas {
+  color: #000000;
+  text-align: center;
+  font: 700 13px "Inter", sans-serif;
+  position: relative;
+  width: 119px;
+}
+.frame-92 {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 9px 10px 9px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 145px;
+  height: 124px;
+  position: absolute;
+  left: 228px;
+  top: 550px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.report-1 {
+  flex-shrink: 0;
+  width: 62px;
+  height: 53px;
+  position: relative;
+}
+.informes-de-laboratorio {
+  color: #000000;
+  text-align: center;
+  font: 700 13px "Inter", sans-serif;
+  position: relative;
+  width: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5 {
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  width: 415px;
+  height: 68px;
+  position: absolute;
+  left: 7px;
+  top: 19px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.frame-7 {
+  padding: 0px 0px 0px 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 430.98px;
+  height: 46.98px;
+  position: absolute;
+  left: 19.73px;
+  top: 31.21px;
+}
+.text-align-justify {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.vector6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-6 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 244px;
+  height: 38px;
+  position: relative;
+}
+.frame-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 314px;
+  height: 62px;
+  position: relative;
+}
+.hospital {
+  text-align: left;
+  font: 700 32px "Inter", sans-serif;
+  position: relative;
+  width: 163px;
+  height: 44px;
+}
+.hospital-span {
+  color: #000000;
+  font: 700 32px "Inter", sans-serif;
+}
+.hospital-span2 {
+  color: #831b1b;
+  font: 700 32px "Inter", sans-serif;
+}
+.hospital-span3 {
+  color: #000000;
+  font: 700 32px "Inter", sans-serif;
+}
+.frame-8 {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 110.5px;
+  height: 86.44px;
+  position: absolute;
+  left: 365.5px;
+  top: 72.56px;
+}
+.frame-10 {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 17px 10px 17px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 144px;
+  height: 143px;
+  position: absolute;
+  left: 228px;
+  top: 687px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.user-3-1 {
+  flex-shrink: 0;
+  width: 74px;
+  height: 57px;
+  position: relative;
+}
+.datos-personales {
+  color: #000000;
+  text-align: center;
+  font: 700 13px "Inter", sans-serif;
+  position: relative;
+  width: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-102 {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 17px 10px 17px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 134px;
+  height: 126px;
+  position: absolute;
+  left: 57px;
+  top: 696px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.doctor-12 {
+  flex-shrink: 0;
+  width: 53.51px;
+  height: 47px;
+  position: relative;
+}
+.servicios-hospitalarios {
+  color: #000000;
+  text-align: center;
+  font: 700 13px "Inter", sans-serif;
+  position: relative;
+  width: 119px;
+}
+.frame-103 {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 9px 10px 9px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 136px;
+  height: 121px;
+  position: absolute;
+  left: 233px;
+  top: 408px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.frame-103 .a {
+    background: #050505;
+    border-radius: 10px;
+    padding: 9px 10px 9px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 136px;
+    height: 121px;
+    position: absolute;
+    left: 233px;
+    top: 408px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.frame-103 a  {
+    color: black; /* Establecer el color del texto a negro */
+    text-decoration: none; /* Quitar la línea subrayada */
+}
+
+
+
+.report-12 {
+  flex-shrink: 0;
+  width: 57px;
+  height: 68px;
+  position: relative;
+}
+.documentos {
+  color: #000000;
+  text-align: center;
+  font: 700 13px "Inter", sans-serif;
+  position: relative;
+  width: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-104 {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 9px 10px 9px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 136px;
+  height: 124px;
+  position: absolute;
+  left: 55px;
+  top: 408px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.calendar-1-1 {
+  flex-shrink: 0;
+  width: 45px;
+  height: 40px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.citas-medicas {
+  color: #000000;
+  text-align: center;
+  font: 700 13px "Inter", sans-serif;
+  position: relative;
+  width: 104px;
+  height: 25px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.image-12 {
+  width: 422px;
+  height: 335px;
+  position: absolute;
+  left: -3px;
+  top: 57px;
+}
