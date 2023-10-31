@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+.documentos-1 * {
+  box-sizing: border-box;
+}
+.documentos-1 {
+  background: #ffe4e1;
+  width: 428px;
+  height: 926px;
+  position: relative;
+  overflow: hidden;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5 {
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  width: 415px;
+  height: 68px;
+  position: absolute;
+  left: 6px;
+  top: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.text-align-justify {
+  position: absolute;
+  left: 33.15px;
+  top: 35.49px;
+  overflow: visible;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 33px;
+  top: 32px;
+}
+.arrow-left {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.documentos {
+  text-align: left;
+  font: 700 29px "Inter", sans-serif;
+  position: relative;
+}
+.documentos-span {
+  color: #000000;
+  font: 700 29px "Inter", sans-serif;
+}
+.documentos-span2 {
+  color: #831b1b;
+  font: 700 29px "Inter", sans-serif;
+}
+.documentos-span3 {
+  color: #000000;
+  font: 700 29px "Inter", sans-serif;
+}
+.firstname {
+  background: #000000;
+  border-radius: 10px;
+  padding: 24px 148px 24px 148px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 348px;
+  height: 62px;
+  position: absolute;
+  left: 38px;
+  top: 564px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.consultar {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Inter", sans-serif;
+  position: relative;
+}
+.firstname2 {
+  background: #000000;
+  border-radius: 10px;
+  padding: 24px 148px 24px 148px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 348px;
+  height: 62px;
+  position: absolute;
+  left: 40px;
+  top: 664px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.cargar {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Inter", sans-serif;
+  position: relative;
+}
+.image-15 {
+  width: 412px;
+  height: 336px;
+  position: absolute;
+  left: 8px;
+  top: 127px;
+}
