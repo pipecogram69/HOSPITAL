@@ -131,6 +131,27 @@ background-color: #831B1B;
   top: 547px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+.frame-93 .a {
+  background: #050505;
+  border-radius: 10px;
+  padding: 9px 10px 9px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 136px;
+  height: 121px;
+  position: absolute;
+  left: 233px;
+  top: 408px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.frame-93 a  {
+  color: black; /* Establecer el color del texto a negro */
+  text-decoration: none; /* Quitar la línea subrayada */
+}
 .doctor-1 {
   flex-shrink: 0;
   width: 53.51px;
@@ -159,11 +180,32 @@ background-color: #831B1B;
   align-items: center;
   justify-content: flex-start;
   width: 140px;
-  height: 121px;
+  height: 130px;
   position: absolute;
   left: 222px;
   top: 409px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.frame-94 .a {
+  background: #050505;
+  border-radius: 10px;
+  padding: 9px 10px 9px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 136px;
+  height: 121px;
+  position: absolute;
+  left: 233px;
+  top: 408px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.frame-94 a  {
+  color: black; /* Establecer el color del texto a negro */
+  text-decoration: none; /* Quitar la línea subrayada */
 }
 .report-1 {
   flex-shrink: 0;
@@ -196,6 +238,28 @@ background-color: #831B1B;
   left: 49px;
   top: 547px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.frame-95 .a {
+  background: #050505;
+  border-radius: 10px;
+  padding: 9px 10px 9px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 136px;
+  height: 121px;
+  position: absolute;
+  left: 233px;
+  top: 408px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.frame-95 a  {
+  color: black; /* Establecer el color del texto a negro */
+  text-decoration: none; /* Quitar la línea subrayada */
 }
 .report-12 {
   flex-shrink: 0;
