@@ -98,7 +98,32 @@ background-color: #831B1B;
   left: 46px;
   top: 705px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
 }
+
+.frame-92 .a {
+  background: #050505;
+  border-radius: 10px;
+  padding: 9px 10px 9px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 136px;
+  height: 121px;
+  position: absolute;
+  left: 233px;
+  top: 408px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.frame-92 a  {
+  color: black; /* Establecer el color del texto a negro */
+  text-decoration: none; /* Quitar la línea subrayada */
+}
+
+
 .phone-call-1 {
   flex-shrink: 0;
   width: 51.5px;
