@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+.citas-medicas-programadas * {
+  box-sizing: border-box;
+}
+.citas-medicas-programadas {
+  background: #ffe4e1;
+  width: 430px;
+  height: 932px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-13 {
+  background: #eb8484;
+  border-radius: 50px;
+  width: 379px;
+  height: 331px;
+  position: absolute;
+  left: 27px;
+  top: 133px;
+}
+.rectangle-5 {
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  width: 415px;
+  height: 68px;
+  position: absolute;
+  left: 7px;
+  top: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.arrow-left {
+  position: absolute;
+  left: 29px;
+  top: 35px;
+  overflow: visible;
+}
+.calendario {
+  text-align: left;
+  font: 700 29px "Inter", sans-serif;
+  position: absolute;
+  left: 81px;
+  top: 35px;
+  width: 434px;
+  height: 39px;
+}
+.calendario-span {
+  color: #000000;
+  font: 700 29px "Inter", sans-serif;
+}
+.calendario-span2 {
+  color: #831b1b;
+  font: 700 29px "Inter", sans-serif;
+}
+.calendario-span3 {
+  color: #000000;
+  font: 700 29px "Inter", sans-serif;
+}
+.rectangle-11 {
+  border-radius: 0px;
+  position: absolute;
+  left: 39px;
+  top: 192px;
+  overflow: visible;
+}
+.do-lu-ma-mi-ju-vi-sa {
+  color: #ff3131;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 58px;
+  top: 216px;
+  width: 404px;
+}
+.ellipse-2 {
+  position: absolute;
+  left: 212px;
+  top: 289px;
+  overflow: visible;
+}
+._6-13-20-27 {
+  color: #ae3434;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 310px;
+  top: 260px;
+}
+.ellipse-1 {
+  position: absolute;
+  left: 67px;
+  top: 260px;
+  overflow: visible;
+}
+.ellipse-6 {
+  position: absolute;
+  left: 255px;
+  top: 318px;
+  overflow: visible;
+}
+.ellipse-3 {
+  position: absolute;
+  left: 123px;
+  top: 321px;
+  overflow: visible;
+}
+.ellipse-4 {
+  position: absolute;
+  left: 344px;
+  top: 261px;
+  overflow: visible;
+}
+.ellipse-7 {
+  position: absolute;
+  left: 344px;
+  top: 261px;
+  overflow: visible;
+}
+._1-8-15-22-29 {
+  color: #ae3434;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 77px;
+  top: 260px;
+}
+._2-9-16-23-30 {
+  color: #ae3434;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 125px;
+  top: 260px;
+}
+.ellipse-5 {
+  position: absolute;
+  left: 170px;
+  top: 260px;
+  overflow: visible;
+}
+._3-10-17-24-31 {
+  color: #ae3434;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 177px;
+  top: 260px;
+}
+._4-11-18-25 {
+  color: #ae3434;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 218px;
+  top: 260px;
+}
+._5-12-19-26 {
+  color: #ae3434;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 259px;
+  top: 260px;
+}
+._7-14-21-28 {
+  color: #ae3434;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 352px;
+  top: 260px;
+}
+.octubre {
+  color: #831b1b;
+  text-align: left;
+  font: 700 32px "Inter", sans-serif;
+  position: absolute;
+  left: 134px;
+  top: 147px;
+}
+._2-2-4-4 {
+  color: #000000;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 348px;
+  top: 676px;
+}
+.rectangle-14 {
+  background: #eb8484;
+  border-radius: 50px;
+  width: 379px;
+  height: 331px;
+  position: absolute;
+  left: 23px;
+  top: 533px;
+}
+.rectangle-12 {
+  border-radius: 0px;
+  position: absolute;
+  left: 35px;
+  top: 594px;
+  overflow: visible;
+}
+.do-lu-ma-mi-ju-vi-sa2 {
+  color: #ff3131;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 58px;
+  top: 623px;
+  width: 404px;
+}
+._1-8-15-22-292 {
+  color: #ae3434;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 218px;
+  top: 660px;
+}
+._2-9-16-23-302 {
+  color: #ae3434;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 262px;
+  top: 660px;
+}
+._3-10-17-24 {
+  color: #ae3434;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 306px;
+  top: 660px;
+}
+._4-11-18-252 {
+  color: #ae3434;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 349px;
+  top: 660px;
+}
+._7-14-21-282 {
+  color: #ae3434;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 179px;
+  top: 660px;
+}
+._6-13-20-272 {
+  color: #ae3434;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 128px;
+  top: 660px;
+}
+._5-12-19-262 {
+  color: #ae3434;
+  text-align: left;
+  font: 400 18px "Baloo 2", sans-serif;
+  position: absolute;
+  left: 76px;
+  top: 660px;
+}
+.noviembre {
+  color: #831b1b;
+  text-align: left;
+  font: 700 32px "Inter", sans-serif;
+  position: absolute;
+  left: 117px;
+  top: 547px;
+}
+  /* calendario css  */
+
+
+.container_calendar {
+    width: 400px;
+    height: 550px;
+  
+    margin : 50% 3%  }
+  
+  .header_calendar {
+    width: 100%;
+    height: 45%;
+    background: linear-gradient(#F7775B, #F86140);
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    flex-direction: column; }
+    .header_calendar h1 {
+      margin: 30px 30px 0px 30px;
+      padding: 0px;
+      font-family: Arial;
+      color: white;
+      font-size: 100px; }
+    .header_calendar h5 {
+      margin: 0px 30px;
+      padding: 0px;
+      font-family: Arial;
+      color: white;
+      font-size: 40px; }
+  
+  .body_calendar {
+    width: 100%;
+    height: 55%;
+    background: white;
+    border-radius: 0px 0px 15px 15px; }
+  
+  .container_details {
+    width: 100%;
+    height: 30px;
+    /* background: #000000; */
+    position: relative;
+    top: -13px;
+    display: flex;
+    justify-content: space-between; }
+    .container_details .detail_1, .container_details .detail_2 {
+      width: 70px;
+      height: 100%;
+      /* background: salmon; */
+      display: flex;
+      justify-content: center; }
+      .container_details .detail_1 .detail, .container_details .detail_2 .detail {
+        margin: 0px 2px;
+        width: 10px;
+        height: 100%;
+        /* background:red; */ }
+        .container_details .detail_1 .detail .circle, .container_details .detail_2 .detail .circle {
+          width: 10px;
+          height: 10px;
+          background: #1C1E26;
+          position: relative;
+          top: calc(30px - 10px);
+          border-radius: 50%; }
+          .container_details .detail_1 .detail .circle .column, .container_details .detail_2 .detail .circle .column {
+            width: 80%;
+            height: 30px;
+            background: #ececec;
+            margin: 0px auto;
+            position: relative;
+            top: -22px;
+            border-radius: 5px; }
+  
+  .container_change_month {
+    width: 100%;
+    height: 25px;
+    /* background: gold; */
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 0.7; }
+    .container_change_month div {
+      /* background: firebrick; */
+      height: 20px;
+      margin: auto;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+    .container_change_month button {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 20px;
+      margin: auto 5px;
+      border: none;
+      background: none;
+      cursor: pointer; }
+  
+  .container_weedays {
+    width: 90%;
+    height: 40px;
+    /* background: #fa80725e; */
+    display: flex;
+    margin: 0px auto; }
+    .container_weedays span {
+      color: #F86140;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      height: 100%;
+      line-height: 2.5; }
+  
+  .week_days_item {
+    display: flex;
+    /* background: firebrick; */
+    margin: auto;
+    width: calc(100% / 7);
+    justify-content: center;
+    cursor: pointer; }
+  
+  .week_days_item:hover {
+    color: #F7775B; }
+  
+  .prev_days {
+    opacity: 0.5; }
+  
+  .container_days {
+    width: 90%;
+    height: auto;
+    /* background: darkcyan; */
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0px auto; }
+    .container_days span {
+      color: #4e4e4e;
+      /* background: #000; */
+      height: 20px;
+      margin: 5px 0px;
+      padding: 0px;
+      font-family: Arial; }
+    .container_days .today {
+      display: flex; }
+    .container_days .today:after {
+      content: "";
+      width: 19px;
+      height: 19px;
+      background: #F7775B;
+      position: absolute;
+      border-radius: 50%;
+      border: 5px solid #F7775B;
+      opacity: 0.6;
+      margin: -5px 0px 0px 1px; }
