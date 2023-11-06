@@ -10,47 +10,47 @@
 <body>
     
     <div class="wrapper">
-        <form action="/" method="">
+        <form action="conexion.php" method="POST">
             <img src="corazon.svg" alt="">
             <h1> HOSPITAL </h1>
             <div class="input-box">
-                <input type="text" id placeholder="Nombre" required>
+                <input type="text" name="nom"  placeholder="Nombres" required>
                 <i class="fa-solid fa-signature"></i>
             </div>
 
             <div class="input-box">
-                <input type="text" placeholder="Apellido" required>
+                <input type="text" name="ape"placeholder="Apellidos" required>
                 <i class="fa-solid fa-otter"></i>          
             </div>
 
             <div class="input-box">
-            <input type="text" placeholder="Correo electronico" required>
+            <input type="text" name="cor" placeholder="Correo electronico" required>
             <i class="fa-solid fa-envelope"></i>
             </div>
 
 
             <div class="input-box">
-            <input type="number" placeholder="Celular" required>
+            <input type="number" name="cel" placeholder="Celular" required>
             <i class="fa-solid fa-mobile-retro"></i>
             </div>
 
             <div class="input-box">
-            <input type="text" placeholder="Número de Seguridad Social" required>
+            <input type="text" name="nss" placeholder="Número de Seguridad Social" required>
             <i class="fa-solid fa-hashtag"></i>
             </div>
 
             <div class="input-box">
-            <input type="text" placeholder="Tipo de identificación " required>
+            <input type="text" name="tid" placeholder="Tipo de identificación " required>
             <i class="fa-solid fa-address-card"></i>
             </div>
 
             <div class="input-box">
-            <input type="number" placeholder="Numero de identificación " required>
+            <input type="number" name="id" placeholder="Numero de identificación " required>
             <i class="fa-solid fa-address-card"></i>
             </div>
 
             <div class="input-box">
-            <input type="password" placeholder="Contraseña" required>
+            <input type="password"  name="con" placeholder="Contraseña" required>
             <i class="fa-regular fa-calendar-days"></i>
             </div>
 
@@ -60,12 +60,9 @@
             <p>ya tengo una cuenta   <a 
             href="inicio sesion.html">Iniciar sesión</a> </p> 
             <script src="script.js"></script>
-
-            
-            
+    
         </div>
         </form>
-
     </div>
 </body>
 </html>

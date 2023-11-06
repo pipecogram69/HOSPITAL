@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+.bienvenida * {
+  box-sizing: border-box;
+}
+.bienvenida {
+  background: #ffe4e1;
+  width: 428px;
+  height: 926px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 49px;
+  top: 204px;
+}
+.mask-group {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.hospital a{
+  color: #000000;
+  text-align: left;
+  font: 700 64px "Inter", sans-serif;
+  position: relative;
+  width: 330px;
+  height: 78px;
+  text-decoration: none;
+}
+
