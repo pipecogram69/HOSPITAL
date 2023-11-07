@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+.cancelar-ambulancia * {
+  box-sizing: border-box;
+}
+.cancelar-ambulancia {
+  background: #ffe4e1;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 323px;
+  height: 352px;
+  position: relative;
+  overflow: hidden;
+}
+.firstname a { 
+  background: #000000;
+  border-radius: 10px;
+  padding: 24px 148px 24px 148px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 149px;
+  height: 69px;
+  position: absolute;
+  left: 4%;
+  top: 183px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #000000;
+  text-align: center;
+}
+.si-estoy-seguro {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Inter", sans-serif;
+  position: relative;
+}
+.firstname2 a {
+  background: #000000;
+  border-radius: 10px;
+  padding: 24px 148px 24px 148px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 149px;
+  height: 69px;
+  position: absolute;
+  left: 4%;
+  top: 269px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #000000;
+  text-align: center;
+}
+.no-cancelar {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Inter", sans-serif;
+  position: relative;
+}
+.frame-23 {
+  background: #daacac;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 12px 27px 12px 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 277px;
+  height: 141px;
+  position: absolute;
+  left: 23px;
+  top: 25px;
+}
+.esta-seguro-que-desea-cancelar-el-servicio {
+  color: #000000;
+  text-align: center;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+  width: 221px;
+  height: 119px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.localizacion-ambulancia * {
+  box-sizing: border-box;
+}
+.localizacion-ambulancia {
+  background: #ffe4e1;
+  width: 430px;
+  height: 932px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-6 {
+  border-radius: 0px;
+  position: absolute;
+  left: 7px;
+  top: 8px;
+  overflow: visible;
+}
+.ser-ambulancia {
+  text-align: left;
+  font: 700 29px "Inter", sans-serif;
+  position: absolute;
+  left: 100px;
+  top: 26px;
+  width: 457px;
+  height: 39px;
+}
+.ser-ambulancia-span {
+  color: #000000;
+  font: 700 29px "Inter", sans-serif;
+}
+.ser-ambulancia-span2 {
+  color: #831b1b;
+  font: 700 29px "Inter", sans-serif;
+}
+.ser-ambulancia-span3 {
+  color: #000000;
+  font: 700 29px "Inter", sans-serif;
+}
+.arrow-left {
+  position: absolute;
+  left: 37px;
+  top: 26px;
+  overflow: visible;
+}
+.image-17 {
+  width: 401px;
+  height: 385px;
+  position: absolute;
+  left: 14px;
+  top: 99px;
+}
+.carlos-moreno-ambulancia {
+  color: #000000;
+  text-align: left;
+  position: absolute;
+  left: 158px;
+  top: 485px;
+}
+.carlos-moreno-ambulancia-span {
+  color: #000000;
+  font: 700 29px "Inter", sans-serif;
+}
+.carlos-moreno-ambulancia-span2 {
+  color: #000000;
+  font: 400 20px "Inter", sans-serif;
+}
+.image-2 {
+  border-radius: 500px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.46);
+  border-width: 1px;
+  width: 109px;
+  height: 109px;
+  position: absolute;
+  left: 34px;
+  top: 484px;
+}
+.kmd-943 {
+  color: #000000;
+  text-align: left;
+  font: 400 25px "Inter", sans-serif;
+  position: absolute;
+  left: 155px;
+  top: 557px;
+  width: 116px;
+  height: 35px;
+}
+.firstname  input{
+  background: var(--text, #ffffff);
+  border-radius: 30px;
+  padding: 16px 9px 21px 18px;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 295px;
+  height: 48px;
+  position: absolute;
+  left: 34px;
+  top: 645px;
+  border-color: transparent;
+}
+.enviar-mensaje-a-carlos {
+  color: rgba(0, 0, 0, 0.23);
+  text-align: left;
+  font: 400 16px "Inter", sans-serif;
+  position: relative;
+}
+.firstname2  input{
+  background: var(--text, #ffffff);
+  border-radius: 30px;
+  padding: 16px 9px 21px 18px;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 295px;
+  height: 48px;
+  position: absolute;
+  left: 37px;
+  top: 734px;
+  border-color: transparent;
+}
+._57 {
+  color: rgba(0, 0, 0, 0.23);
+  text-align: left;
+  font: 400 16px "Inter", sans-serif;
+  position: relative;
+}
+.image-18 {
+  width: 44px;
+  height: 43px;
+  position: absolute;
+  left: 349px;
+  top: 744px;
+}
+.image-19 {
+  width: 59px;
+  height: 59px;
+  position: absolute;
+  left: 341px;
+  top: 642px;
+}
+.ellipse-7 {
+  background: #cca4a4;
+  border-radius: 50%;
+  width: 78px;
+  height: 79px;
+  position: absolute;
+  left: 325px;
+  top: 530px;
+}
+._2-min {
+  color: #000000;
+  text-align: left;
+  font: 400 19px "Inter", sans-serif;
+  position: absolute;
+  left: 346px;
+  top: 543px;
+  width: 47px;
+  height: 55px;
+}
