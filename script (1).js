@@ -1,12 +1,12 @@
 function validarCampos() {
-    var usuario = document.getElementsByName("Usuario")[0].value;
-    var contraseña = document.getElementsByName("Contraseña")[0].value;
+    var usuario = document.getElementById("Usuario").value;
+    var contraseña = document.getElementById("Contraseña").value;
 
-    if (usuario === "" || contraseña === "") {
-        alert("Por favor, rellene todos los campos.");
-        return false; // Detiene el envío del formulario si los campos están vacíos
+    if (usuario.trim() === "" || contraseña.trim() === "") {
+        alert("Por favor, complete los campos de Usuario y Contraseña.");
+        return false; // Evita que el formulario se envíe si los campos no están completos
     }
-
-    // Si todos los campos están llenos, el formulario se enviará
-    document.getElementById("formulario").submit();
 }
+
+
+
