@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+.estado-ambulancia * {
+  box-sizing: border-box;
+}
+.estado-ambulancia {
+  background: #ffe4e1;
+  width: 430px;
+  height: 932px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-5 {
+  border-radius: 0px;
+  position: absolute;
+  left: 7px;
+  top: 15px;
+  overflow: visible;
+}
+.arrow-left {
+  position: absolute;
+  left: 29px;
+  top: 34px;
+  overflow: visible;
+}
+.arrow-left2 {
+  position: absolute;
+  left: 29px;
+  top: 34px;
+  overflow: visible;
+}
+.ser-ambulancia {
+  text-align: left;
+  font: 700 29px "Inter", sans-serif;
+  position: absolute;
+  left: 81px;
+  top: 31px;
+  width: 457px;
+  height: 39px;
+}
+.ser-ambulancia-span {
+  color: #000000;
+  font: 700 29px "Inter", sans-serif;
+}
+.ser-ambulancia-span2 {
+  color: #831b1b;
+  font: 700 29px "Inter", sans-serif;
+}
+.ser-ambulancia-span3 {
+  color: #000000;
+  font: 700 29px "Inter", sans-serif;
+}
+.firstname {
+  background: #000000;
+  border-radius: 10px;
+  padding: 24px 148px 24px 148px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 63px;
+  position: absolute;
+  left: 90px;
+  top: 549px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.modificar-ubicacion {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Inter", sans-serif;
+  position: relative;
+}
+.firstname2 {
+  background: #000000;
+  border-radius: 10px;
+  padding: 24px 148px 24px 148px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 63px;
+  position: absolute;
+  left: 90px;
+  top: 668px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.cancelar-servicio {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Inter", sans-serif;
+  position: relative;
+}
+.firstname3 {
+  background: #000000;
+  border-radius: 10px;
+  padding: 24px 148px 24px 148px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 63px;
+  position: absolute;
+  left: 90px;
+  top: 430px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.visualizar-ubicacion {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Inter", sans-serif;
+  position: relative;
+}
+.image-14 {
+  width: 376px;
+  height: 275px;
+  position: absolute;
+  left: 27px;
+  top: 115px;
+}
