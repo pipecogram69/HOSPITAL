@@ -7,11 +7,11 @@ if ($conn->connect_error) {
 }
 
 // Obtener los datos del formulario
-$usuario = $_POST['reg_id'];
-$contraseña = $_POST['reg_contra'];
+$usuario = $_POST['us'];
+$contraseña = $_POST['con'];
 
 // Consulta SQL para verificar las credenciales en la base de datos
-$sql = "SELECT * FROM usuarios WHERE usuario='$usuario' AND contraseña='$contraseña'";
+$sql = "SELECT * FROM pacientes WHERE reg_id='$usuario' AND reg_contra='$contraseña'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -19,7 +19,7 @@ if ($result->num_rows > 0) {
     header("Location: home_paciente.html");
 } else {
     // Las credenciales son incorrectas, puedes mostrar un mensaje de error o redirigir a otra página de error
-    header("Location: error.html");
+    header("Location: inicio sesion.html");
 }
 
 // Cerrar la conexión a la base de datos
