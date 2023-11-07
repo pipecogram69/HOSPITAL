@@ -10,3 +10,4 @@ function validarCampos() {
     // Si todos los campos están llenos, el formulario se enviará
     document.getElementById("formulario").submit();
 }
+
