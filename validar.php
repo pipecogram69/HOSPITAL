@@ -30,7 +30,7 @@ if ($resultPacientes->num_rows > 0) {
         exit();
     } else {
         // Contraseña incorrecta
-        echo "Contraseña incorrecta";
+        echo "<script>alert('Contraseña incorrecta.'); window.history.back();</script>";
     }
 } elseif ($resultMedicos->num_rows > 0) {
     // Verificar si el usuario es un médico
@@ -43,11 +43,13 @@ if ($resultPacientes->num_rows > 0) {
         exit();
     } else {
         // Contraseña incorrecta
-        echo "Contraseña incorrecta y/o credenciales incorrectas";
+        echo "<script>alert('Contraseña incorrecta.'); window.history.back();</script>";
+
     }
 } else {
     // Usuario no encontrado en ninguna tabla
-    echo "Usuario no encontrado";
+    echo "<script>alert('Usuario no encontrado.'); window.history.back();</script>";
+
 }
 
 // Cerrar la conexión a la base de datos
