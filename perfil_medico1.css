@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.perfil-medico-1 * {
+  box-sizing: border-box;
+}
+.perfil-medico-1 {
+  background: #ffe4e1;
+  width: 430px;
+  height: 932px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-5 {
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  width: 415px;
+  height: 68px;
+  position: absolute;
+  left: 7px;
+  top: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.arrow-left {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 29px;
+  top: 35px;
+  overflow: visible;
+}
+.perfil-medico {
+  text-align: left;
+  font: 700 29px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: 81px;
+  top: 35px;
+  width: 434px;
+  height: 39px;
+}
+.perfil-medico-span {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.perfil-medico-span2 {
+  color: linear-gradient(to left, #831b1b, #831b1b),
+    linear-gradient(to left, #000000, #000000);
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.perfil-medico-span3 {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.rectangle-15 {
+  background: #6f2a2a;
+  width: 195px;
+  height: 836px;
+  position: absolute;
+  left: 0px;
+  top: 96px;
+}
+.image-20 {
+  width: 195px;
+  height: 220px;
+  position: absolute;
+  left: 0px;
+  top: 96px;
+}
+.dr-juan-perez-traumotologia {
+  color: #000000;
+  text-align: left;
+  position: absolute;
+  left: 215px;
+  top: 154px;
+}
+.dr-juan-perez-traumotologia-span {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.dr-juan-perez-traumotologia-span2 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.soy-un-apasionado-de-la-medicina {
+  color: #ffffff;
+  text-align: center;
+  font: 400 32px "PoetsenOne-Regular", sans-serif;
+  position: absolute;
+  left: -4px;
+  top: 466px;
+  width: 199px;
+  height: 170px;
+}
+._47-a-os-de-edad {
+  color: #ffffff;
+  text-align: center;
+  font: 400 20px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 7px;
+  top: 879px;
+  width: 178px;
+  height: 30px;
+}
+.cod-med-001-id-servicio-traumatologia-bogota-d-c {
+  color: #000000;
+  text-align: center;
+  font: 400 26px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 215px;
+  top: 266px;
+  width: 188px;
+  height: 164px;
+}
+.estudios-universidad-nacional-de-colombia-experiencia-15-a-os-en-el-hospital-universitario-san-ignacio-especializaci-n-traumatolog-a {
+  color: #000000;
+  text-align: center;
+  font: 400 20px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 187px;
+  top: 560px;
+  width: 231px;
+  height: 349px;
+}
+.estudios-universidad-nacional-de-colombia-experiencia-15-a-os-en-el-hospital-universitario-san-ignacio-especializaci-n-traumatolog-a-span {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudios-universidad-nacional-de-colombia-experiencia-15-a-os-en-el-hospital-universitario-san-ignacio-especializaci-n-traumatolog-a-span2 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudios-universidad-nacional-de-colombia-experiencia-15-a-os-en-el-hospital-universitario-san-ignacio-especializaci-n-traumatolog-a-span3 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudios-universidad-nacional-de-colombia-experiencia-15-a-os-en-el-hospital-universitario-san-ignacio-especializaci-n-traumatolog-a-span4 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudios-universidad-nacional-de-colombia-experiencia-15-a-os-en-el-hospital-universitario-san-ignacio-especializaci-n-traumatolog-a-span5 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudio-medico-1-1 {
+  width: 87px;
+  height: 66px;
+  position: absolute;
+  left: 273px;
+  top: 481px;
+  backdrop-filter: blur(2px);
+}

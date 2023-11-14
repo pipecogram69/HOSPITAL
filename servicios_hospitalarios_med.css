@@ -1,0 +1,374 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+.servicios-hospitalarios-medicos * {
+  box-sizing: border-box;
+}
+.servicios-hospitalarios-medicos {
+  background: #ffe4e1;
+  width: 428px;
+  height: 926px;
+  position: relative;
+  overflow-y: auto;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 28px;
+  top: 21px;
+}
+.arrow-left {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.servi {
+  color: #ffffff;
+  text-align: left;
+  font: 700 24px "Inter-Bold", sans-serif;
+  position: relative;
+}
+.firstname {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(35, 31, 32, 0.51);
+  border-width: 1px;
+  padding: 16px 9px 14px 18px;
+  display: flex;
+  flex-direction: row;
+  gap: 188px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 392px;
+  height: 52px;
+  position: absolute;
+  left: 20px;
+  top: 95px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.doctores-especialidades {
+  color: rgba(0, 0, 0, 0.55);
+  text-align: left;
+  font: 400 16px "Inter-Regular", sans-serif;
+  position: relative;
+}
+.firstname2 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(35, 31, 32, 0.51);
+  border-width: 1px;
+  padding: 20px 9px 23px 18px;
+  display: flex;
+  flex-direction: row;
+  gap: 188px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 392px;
+  height: 178px;
+  position: absolute;
+  left: 21px;
+  top: 162px;
+}
+.frame-16 {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-15 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-8 {
+  background: linear-gradient(to left, #ffffff, #ffffff);
+  flex-shrink: 0;
+  width: 171px;
+  height: 92px;
+  position: relative;
+}
+.frame-14 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._1 {
+  color: #000000;
+  text-align: left;
+  font: 700 16px "Inter-Bold", sans-serif;
+  position: relative;
+}
+.cod-med-001-id-servicio-traumatologia-bogota-d-c {
+    color: rgba(0, 0, 0, 0.38);
+    text-align: left;
+    font: 400 13px "Inter-Regular", sans-serif;
+    position: relative;
+}
+.frame-13 {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.frame-12 {
+  background: #831b1b;
+  border-radius: 10px;
+  padding: 14px 49px 14px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 341px;
+  position: relative;
+}
+.visualizar-perfil {
+  color: #ffffff;
+  text-align: center;
+  font: 400 16px "Inter-Regular", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstname3 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(35, 31, 32, 0.51);
+  border-width: 1px;
+  padding: 20px 9px 23px 18px;
+  display: flex;
+  flex-direction: row;
+  gap: 188px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 392px;
+  height: 178px;
+  position: absolute;
+  left: 21px;
+  top: 349px;
+}
+._2 {
+  color: #000000;
+  text-align: left;
+  font: 700 16px "Inter-Bold", sans-serif;
+  position: relative;
+}
+.cod-med-002-id-servicio-urologia-bogota-d-c {
+  color: rgba(0, 0, 0, 0.38);
+  text-align: left;
+  font: 400 13px "Inter-Regular", sans-serif;
+  position: relative;
+}
+.frame-132 {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 345px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.frame-122  a{
+  background: #831b1b;
+  border-radius: 10px;
+  padding: 14px 49px 14px 19px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 345px;
+  position: relative;
+  color: #ffe4e1;
+  text-decoration-line: none;
+}
+.visualizar-perfil2 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Inter-Regular", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(-0.676deg) scale(1, 1);
+}
+.firstname4 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(35, 31, 32, 0.51);
+  border-width: 1px;
+  padding: 20px 9px 23px 18px;
+  display: flex;
+  flex-direction: row;
+  gap: 188px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 392px;
+  height: 178px;
+  position: absolute;
+  left: 21px;
+  top: 536px;
+}
+.rectangle-9 {
+  background: linear-gradient(to left, #ffffff, #ffffff);
+  flex-shrink: 0;
+  width: 171px;
+  height: 92px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+._3 {
+  color: #000000;
+  text-align: left;
+  font: 700 16px "Inter-Bold", sans-serif;
+  position: relative;
+}
+.cod-med-003-id-servicio-medicina-interna-bogota-d-c {
+  color: rgba(0, 0, 0, 0.38);
+  text-align: left;
+  font: 400 13px "Inter-Regular", sans-serif;
+  position: relative;
+}
+.firstname5 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(35, 31, 32, 0.51);
+  border-width: 1px;
+  padding: 20px 9px 23px 18px;
+  display: flex;
+  flex-direction: row;
+  gap: 188px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 392px;
+  height: 178px;
+  position: absolute;
+  left: 20px;
+  top: 729px;
+}
+.rectangle-82 {
+  background: linear-gradient(to left, #ffffff, #ffffff);
+  flex-shrink: 0;
+  width: 171px;
+  height: 92px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+._4 {
+  color: #000000;
+  text-align: left;
+  font: 700 16px "Inter-Bold", sans-serif;
+  position: relative;
+}
+.cod-med-004-id-servicio-neurologia-bogota-d-c {
+  color: rgba(0, 0, 0, 0.38);
+  text-align: left;
+  font: 400 13px "Inter-Regular", sans-serif;
+  position: relative;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5 {
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  width: 415px;
+  height: 68px;
+  position: absolute;
+  left: 6px;
+  top: 13px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.text-align-justify {
+  width: 31.03px;
+  height: 29.81px;
+  position: absolute;
+  left: 33.15px;
+  top: 33.49px;
+  overflow: visible;
+}
+.frame-133 {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 401px;
+  position: absolute;
+  left: -26px;
+  top: 32px;
+}
+.arrow-left2 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.arrow-left3 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.doctores {
+  text-align: left;
+  font: 700 29px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: 125px;
+  top: 29px;
+  width: 434px;
+  height: 39px;
+}
+.doctores-span {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.doctores-span2 {
+  color: #831b1b;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.doctores-span3 {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}

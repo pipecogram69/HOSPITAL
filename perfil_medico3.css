@@ -1,0 +1,169 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+.perfil-medico-3 * {
+  box-sizing: border-box;
+}
+.perfil-medico-3 {
+  background: #ffe4e1;
+  width: 430px;
+  height: 932px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-5 {
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  width: 415px;
+  height: 68px;
+  position: absolute;
+  left: 7px;
+  top: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.arrow-left {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 29px;
+  top: 35px;
+  overflow: visible;
+}
+.perfil-medico {
+  text-align: left;
+  font: 700 29px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: 81px;
+  top: 35px;
+  width: 434px;
+  height: 39px;
+}
+.perfil-medico-span {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.perfil-medico-span2 {
+  color: linear-gradient(to left, #831b1b, #831b1b),
+    linear-gradient(to left, #000000, #000000);
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.perfil-medico-span3 {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.rectangle-15 {
+  background: #6f2a2a;
+  width: 195px;
+  height: 836px;
+  position: absolute;
+  left: 0px;
+  top: 104px;
+}
+.image-20 {
+  width: 195px;
+  height: 220px;
+  position: absolute;
+  left: 0px;
+  top: 96px;
+}
+.dr-oscar-arias-urologia {
+  color: #000000;
+  text-align: left;
+  position: absolute;
+  left: 215px;
+  top: 154px;
+}
+.dr-oscar-arias-urologia-span {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.dr-oscar-arias-urologia-span2 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.proporciono-dar-una-atenci-n-de-alta-calidad-a-mis-pacientes {
+  color: #ffffff;
+  text-align: center;
+  font: 400 28px "PoetsenOne-Regular", sans-serif;
+  position: absolute;
+  left: -4px;
+  top: 466px;
+  width: 199px;
+  height: 239px;
+}
+._30-a-os-de-edad {
+  color: #ffffff;
+  text-align: center;
+  font: 400 20px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 9px;
+  top: 882px;
+  width: 178px;
+  height: 30px;
+}
+.cod-med-003-id-servicio-urologia-bogota-d-c {
+  color: #000000;
+  text-align: center;
+  font: 400 26px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 220px;
+  top: 277px;
+  width: 169px;
+  height: 161px;
+}
+.estudios-universidad-del-rosario-experiencia-8-a-os-en-el-hospital-militar-central-especializaci-n-urologia {
+  color: #000000;
+  text-align: center;
+  font: 400 20px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 199px;
+  top: 575px;
+  width: 209px;
+  height: 313px;
+}
+.estudios-universidad-del-rosario-experiencia-8-a-os-en-el-hospital-militar-central-especializaci-n-urologia-span {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudios-universidad-del-rosario-experiencia-8-a-os-en-el-hospital-militar-central-especializaci-n-urologia-span2 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudios-universidad-del-rosario-experiencia-8-a-os-en-el-hospital-militar-central-especializaci-n-urologia-span3 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudios-universidad-del-rosario-experiencia-8-a-os-en-el-hospital-militar-central-especializaci-n-urologia-span4 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudios-universidad-del-rosario-experiencia-8-a-os-en-el-hospital-militar-central-especializaci-n-urologia-span5 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudios-universidad-del-rosario-experiencia-8-a-os-en-el-hospital-militar-central-especializaci-n-urologia-span6 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudio-medico-1-2 {
+  width: 87px;
+  height: 66px;
+  position: absolute;
+  left: 261px;
+  top: 480px;
+  backdrop-filter: blur(2px);
+}

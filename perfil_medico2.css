@@ -1,0 +1,172 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+.perfil-medico-2 * {
+  box-sizing: border-box;
+}
+.perfil-medico-2 {
+  background: #ffe4e1;
+  width: 430px;
+  height: 932px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-5 {
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  width: 415px;
+  height: 68px;
+  position: absolute;
+  left: 7px;
+  top: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.arrow-left {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 29px;
+  top: 35px;
+  overflow: visible;
+}
+.perfil-medico {
+  text-align: left;
+  font: 700 29px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: 81px;
+  top: 35px;
+  width: 434px;
+  height: 39px;
+}
+.perfil-medico-span {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.perfil-medico-span2 {
+  color: linear-gradient(to left, #831b1b, #831b1b),
+    linear-gradient(to left, #000000, #000000);
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.perfil-medico-span3 {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.rectangle-15 {
+  background: #6f2a2a;
+  width: 195px;
+  height: 836px;
+  position: absolute;
+  left: 0px;
+  top: 96px;
+}
+.image-20 {
+  width: 195px;
+  height: 220px;
+  position: absolute;
+  left: 0px;
+  top: 96px;
+}
+.dr-carlos-gomez-medicina-interna {
+  color: #000000;
+  text-align: left;
+  position: absolute;
+  left: 215px;
+  top: 154px;
+}
+.dr-carlos-gomez-medicina-interna-span {
+  color: #000000;
+  font: 700 24px "Inter-Bold", sans-serif;
+}
+.dr-carlos-gomez-medicina-interna-span2 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.utilizo-las-t-cnicas-m-s-avanzadas-y-me-enfoco-en-el-paciente {
+  color: #ffffff;
+  text-align: center;
+  font: 400 28px "PoetsenOne-Regular", sans-serif;
+  position: absolute;
+  left: -4px;
+  top: 480px;
+  width: 197px;
+  height: 217px;
+}
+.cod-med-002-id-servicio-medicina-interna-bogota-d-c {
+  color: #000000;
+  text-align: center;
+  font: 400 26px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 193px;
+  top: 266px;
+  width: 245px;
+  height: 155px;
+}
+.group-8 {
+  position: absolute;
+  inset: 0;
+}
+.estudios-universidad-de-los-andes-experiencia-20-a-os-en-ela-fundaci-n-santa-fe-de-bogot-especializaci-n-medicina-interna {
+  color: #000000;
+  text-align: center;
+  font: 400 20px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 205px;
+  top: 546px;
+  width: 221px;
+  height: 386px;
+}
+.estudios-universidad-de-los-andes-experiencia-20-a-os-en-ela-fundaci-n-santa-fe-de-bogot-especializaci-n-medicina-interna-span {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudios-universidad-de-los-andes-experiencia-20-a-os-en-ela-fundaci-n-santa-fe-de-bogot-especializaci-n-medicina-interna-span2 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudios-universidad-de-los-andes-experiencia-20-a-os-en-ela-fundaci-n-santa-fe-de-bogot-especializaci-n-medicina-interna-span3 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudios-universidad-de-los-andes-experiencia-20-a-os-en-ela-fundaci-n-santa-fe-de-bogot-especializaci-n-medicina-interna-span4 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudios-universidad-de-los-andes-experiencia-20-a-os-en-ela-fundaci-n-santa-fe-de-bogot-especializaci-n-medicina-interna-span5 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudios-universidad-de-los-andes-experiencia-20-a-os-en-ela-fundaci-n-santa-fe-de-bogot-especializaci-n-medicina-interna-span6 {
+  color: #000000;
+  font: 400 20px "Inter-Regular", sans-serif;
+}
+.estudio-medico-2 {
+  width: 85px;
+  height: 66px;
+  position: absolute;
+  left: 281px;
+  top: 448px;
+}
+._53-a-os-de-edad {
+  color: #ffffff;
+  text-align: center;
+  font: 400 20px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 6px;
+  top: 877px;
+  width: 178px;
+  height: 30px;
+}
