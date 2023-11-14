@@ -8,3 +8,5 @@ function confirmarYRedirigir(destino) {
         window.location.href = destino; // Redirect to the specified destination
     } 
 }
+
+
