@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "hospital"); 
+$conn = mysqli_connect("localhost", "root", "", "hospital2"); 
 
 // Recibir datos del formulario usando POST
 $nombre = $_POST['nom'];

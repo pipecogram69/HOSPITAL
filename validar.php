@@ -1,6 +1,6 @@
 <?php
 // Conexión a la base de datos
-$conn = mysqli_connect("localhost", "root", "", "hospital");
+$conn = mysqli_connect("localhost", "root", "", "hospital2");
 
 // Verificar la conexión
 if ($conn->connect_error) {
