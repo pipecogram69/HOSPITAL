@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.perfil * {
+  box-sizing: border-box;
+}
+.perfil {
+  background: linear-gradient(to left, #ffffff, #ffffff);
+  border-radius: 10px 10px 0px 0px;
+  width: 428px;
+  height: 926px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 28px;
+  top: 21px;
+}
+.arrow-left {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.documents {
+  color: #ffffff;
+  text-align: left;
+  font: 700 24px "Inter", sans-serif;
+  position: relative;
+}
+.rectangle-10 {
+  background: #ffe4e1;
+  width: 321px;
+  height: 176px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-102 {
+  background: #ffffff;
+  width: 321px;
+  height: 750px;
+  position: absolute;
+  left: -2px;
+  top: 176px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.frame-23 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 122px;
+  top: 68px;
+}
+.frame-22 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.laura-fernandez {
+  color: #831b1b;
+  text-align: left;
+  font: 700 16px "Inter", sans-serif;
+  position: relative;
+}
+.laura-fernadez-67-gmail-com {
+  color: #831b1b;
+  text-align: left;
+  font: 400 13px "Inter", sans-serif;
+  position: relative;
+  width: 185px;
+}
+.frame-32 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 29px;
+  top: 240px;
+}
+.frame-24 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.home-1 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.inicio {
+  color: #000000;
+  text-align: left;
+  font: 400 16px "Inter", sans-serif;
+  position: relative;
+}
+.frame-25 {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.edit-1 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.editar-perfil {
+  color: #000000;
+  text-align: left;
+  font: 400 16px "Inter", sans-serif;
+  position: relative;
+}
+.frame-29 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.info-1 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.sobre-nosotros {
+  color: #000000;
+  text-align: left;
+  font: 400 16px "Inter", sans-serif;
+  position: relative;
+}
+.frame-30 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact-2-1 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.contactese-con-nosotros {
+  color: #000000;
+  text-align: left;
+  font: 400 16px "Inter", sans-serif;
+  position: relative;
+}
+.frame-31 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.logout-1 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.cerrar-cesi-n {
+  color: #000000;
+  text-align: left;
+  font: 400 16px "Inter", sans-serif;
+  position: relative;
+}
+.image-2 {
+  border-radius: 500px;
+  width: 78px;
+  height: 78px;
+  position: absolute;
+  left: 33px;
+  top: 37px;
+}
