@@ -11,7 +11,7 @@
 <body>
     
     <div class="wrapper">
-        <form action="registro.php" method="POST">
+        <form action="" method="POST">
             <img src="corazon.svg" alt="">
             <h1> HOSPITAL </h1>
             <div class="input-box">
@@ -97,11 +97,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if(mysqli_query($conn, $sql_insertar_registro)){
                 echo "<script>alert('Registro creado con éxito'); window.location.href = 'nombre_de_la_pagina_actual.php';</script>"; 
 
-                $sql_insertar_paciente = "INSERT INTO pacientes(reg_id, reg_contra) 
-                    VALUES ('$identificacion', '$contraseña')";
+                $sql_insertar_paciente = "INSERT INTO pacientes (reg_nombres, reg_apellidos, reg_correo, reg_celular, reg_num_seg, reg_tipo_id, reg_id, reg_contra)
+                    VALUES ('$nombre', '$apellido', '$correo', '$celular', '$num_seguridad_social', '$tipo_identificacion', '$identificacion', '$contraseña')";
                 
                 if(mysqli_query($conn, $sql_insertar_paciente)){
-                    header("Location: inicio sesion.php");
+                    header("Location: inicio.php");
                 }
             } else {
                 echo "Error al crear el registro: " . mysqli_error($conn);

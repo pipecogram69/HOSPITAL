@@ -1,3 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="inicio_sesion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="🦆 icon _Cardiogram_.png">
+
+</head>
+<body>
+    
+    <div class="wrapper">
+        <form action="" method="POST"> 
+            <img src="corazon.svg" alt="">
+            <h1 >  HOSPITAL</h1>
+            <div class="input-box">
+                <input type="text"  name="us"   placeholder="Usuario" required>
+                <i class="fa-solid fa-user"></i>
+        
+
+
+            </div>
+            <div class="input-box">
+                <input type="password" name="con"   placeholder="Contraseña" required>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+          
+
+            <div class="remember-forgot">
+            <label><input type="checkbox">  Recordar contraseña 
+            </label>
+            <div class="boton1">
+            <a href="restablecer contraseña.html">  ¿olvido su contraseña?</a>
+        </div>
+        </div>
+<div class="contenedor1"> 
+    <button id="paginasiguente1" type="submit" class="btn"  onclick="confirmacion()">Ingresar</button>
+
+</div>
+        <div class="register-link">
+            <p>No tengo una cuenta  <a 
+            href="registro.php">Registrarse</a> </p> 
+            <script src="script.js"></script>
+     
+            
+        </div>
+        </form>
+
+    </div>
+</body>
+</html>
 <?php
 // Conexión a la base de datos
 $conn = mysqli_connect("localhost", "root", "", "hospital2");
@@ -59,56 +112,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 $conn->close();
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulario</title>
-    <link rel="stylesheet" href="inicio_sesion.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="icon" href="🦆 icon _Cardiogram_.png">
-
-</head>
-<body>
-    
-    <div class="wrapper">
-        <form action="validar.php" method="POST"> 
-            <img src="corazon.svg" alt="">
-            <h1 >  HOSPITAL</h1>
-            <div class="input-box">
-                <input type="text"  name="us"   placeholder="Usuario" required>
-                <i class="fa-solid fa-user"></i>
-        
-
-
-            </div>
-            <div class="input-box">
-                <input type="password" name="con"   placeholder="Contraseña" required>
-                <i class="fa-solid fa-lock"></i>
-            </div>
-          
-
-            <div class="remember-forgot">
-            <label><input type="checkbox">  Recordar contraseña 
-            </label>
-            <div class="boton1">
-            <a href="restablecer contraseña.html">  ¿olvido su contraseña?</a>
-        </div>
-        </div>
-<div class="contenedor1"> 
-    <button id="paginasiguente1" type="submit" class="btn"  onclick="confirmacion()">Ingresar</button>
-
-</div>
-        <div class="register-link">
-            <p>No tengo una cuenta  <a 
-            href="registro.php">Registrarse</a> </p> 
-            <script src="script.js"></script>
-     
-            
-        </div>
-        </form>
-
-    </div>
-</body>
-</html>
