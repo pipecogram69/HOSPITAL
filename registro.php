@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<script>alert('Este número de identificación ya está registrado. Por favor, intente con otro número de identificación.'); window.history.back();</script>";
     } else {
         if (strlen($contraseña) < 8 || !preg_match("/[A-Z]/", $contraseña) || !preg_match("/[!@#$%^&*(),.?\":{}|<>]/", $contraseña)) {
-            echo "<script>alert('La contraseña debe tener al menos 8 caracteres, una letra mayúscula y un carácter especial.'); window.history.back();</script>";
+           // echo "<script>alert('La contraseña debe tener al menos 8 caracteres, una letra mayúscula y un carácter especial.'); window.history.back();</script>";
         } else {
             $sql_insertar_registro = "INSERT INTO registros(reg_nombres, reg_apellidos, reg_correo, reg_celular, reg_num_seg, reg_tipo_id, reg_id, reg_contra) 
                 VALUES ('$nombre', '$apellido', '$correo', '$celular', '$num_seguridad_social', '$tipo_identificacion', '$identificacion', '$contraseña')";
