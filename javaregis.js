@@ -6,13 +6,13 @@ document.getElementById("password").addEventListener("input", function() {
         mensajeError += "La contraseña debe tener al menos 8 caracteres. ";
     }
     if (!/[A-Z]/.test(password)) {
-        mensajeError += "La contraseña debe contener al menos una letra mayúscula. ";
+        mensajeError += " ,debe contener al menos una letra mayúscula. ";
     }
     if (!/\d/.test(password)) {
-        mensajeError += "La contraseña debe contener al menos un número. ";
+        mensajeError += ", debe contener al menos un número. ";
     }
     if (!/[^A-Za-z0-9]/.test(password)) {
-        mensajeError += "La contraseña debe contener al menos un carácter especial. ";
+        mensajeError += ", contener al menos un carácter especial. ";
     }
 
     document.getElementById("mensaje-error").textContent = mensajeError;
