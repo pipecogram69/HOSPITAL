@@ -36,8 +36,9 @@ background-color: #831B1B;
 }
 .arrow-left {
   flex-shrink: 0;
-  width: 32px;
+  width: 60px;
   height: 32px;
+  padding: 30px;
   position: relative;
   overflow: visible;
 }
