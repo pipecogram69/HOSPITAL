@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="registro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="🦆 icon _Cardiogram_.png">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <form action="registro.php" method="POST">
+            <img src="corazon.svg" alt="">
+            <h1> HOSPITAL </h1>
+            <div class="input-box">
+                <input type="text" name="nom" placeholder="Nombres" required>
+                <i class="fa-solid fa-signature"></i>
+            </div>
+
+            <div class="input-box">
+                <input type="text" name="ape" placeholder="Apellidos" required> <!-- Cambiado de 'id' a 'name' -->
+                <i class="fa-solid fa-otter"></i>          
+            </div>
+
+            <div class="input-box">
+                <input type="text" name="cor" placeholder="Correo electronico" required>
+                <i class="fa-solid fa-envelope"></i>
+                </div>
+    
+    
+                <div class="input-box">
+                <input type="number" name="cel" placeholder="Celular" required>
+                <i class="fa-solid fa-mobile-retro"></i>
+                </div>
+    
+                <div class="input-box">
+                <input type="text" name="nss" placeholder="Número de Seguridad Social" required>
+                <i class="fa-solid fa-hashtag"></i>
+                </div>
+    
+                <div class="input-box">
+                <input type="text" name="tid" placeholder="Tipo de identificación " required>
+                <i class="fa-solid fa-address-card"></i>
+                </div>
+    
+                <div class="input-box">
+                <input type="number" name="id" placeholder="Numero de identificación " required>
+                <i class="fa-solid fa-address-card"></i>
+                </div>
+    
+                <div class="input-box">
+                <input type="password"  name="con" placeholder="Contraseña" required>
+                <i class="fa-regular fa-calendar-days"></i>
+                </div>
+
+            <button id="paginasiguente1" type="submit" class="btn" onclick="confirmacion()">Registrarse!</button>
+        
+            <div class="register-link">
+                <p>Ya tengo una cuenta <a href="inicio.php">Iniciar sesión</a></p> 
+            </div>
+        </form>
+    </div>
+</body>
+</html>
