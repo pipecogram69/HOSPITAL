@@ -60,7 +60,7 @@ if ($resultPerfil->num_rows > 0) {
     <div class="frame-32">
         <div class="frame-24">
             <img class="home-1" src="inicio.svg" />
-            <div class="inicio">Inicio</div>
+            <a href="home_paciente.html" class="inicio" >inicio</a>
         </div>
         <div class="frame-25">
             <img class="edit-1" src="editar perfil.svg" />
@@ -76,7 +76,7 @@ if ($resultPerfil->num_rows > 0) {
         </div>
         <div class="frame-31">
             <img class="logout-1" src="cerrarsesion.svg" />
-            <div class="cerrar-cesi-n">Cerrar cesión</div>
+            <a href="bienvenida.html" class="cerrar-cesi-n" > cerrar sesion</a>
         </div>
     </div>
     <img class="image-2" src="image 2.png" />
