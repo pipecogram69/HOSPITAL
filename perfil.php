@@ -60,23 +60,23 @@ if ($resultPerfil->num_rows > 0) {
     <div class="frame-32">
         <div class="frame-24">
             <img class="home-1" src="inicio.svg" />
-            <a href="home_paciente.html" class="inicio" >inicio</a>
+            <a href="home_paciente.html" class="inicio" >Inicio</a>
         </div>
         <div class="frame-25">
             <img class="edit-1" src="editar perfil.svg" />
-            <div class="editar-perfil">Editar perfil</div>
-        </div>
+         <a href="editar_perfil.html">Editar Perfil </a>    
+    </div>
         <div class="frame-29">
             <img class="info-1" src="sobre nosotros.svg" />
-            <div class="sobre-nosotros">Sobre nosotros</div>
+        <a href="sobre_nosotros.html">Sobre Nosotros </a>
         </div>
         <div class="frame-30">
             <img class="contact-2-1" src="contactese con nosotros.svg" />
-            <div class="contactese-con-nosotros">Contactese con nosotros</div>
+          <a href="contactenos.html">Contactenos </a>
         </div>
         <div class="frame-31">
             <img class="logout-1" src="cerrarsesion.svg" />
-            <a href="bienvenida.html" class="cerrar-cesi-n" > cerrar sesion</a>
+            <a href="bienvenida.html"  class="cerrarsesion "> Cerrar Sesion</a>
         </div>
     </div>
     <img class="image-2" src="image 2.png" />

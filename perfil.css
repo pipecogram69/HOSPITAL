@@ -106,7 +106,7 @@ background-color: #831B1B;
   left: 29px;
   top: 240px;
 }
-.frame-24 {
+.frame-24  {
   display: flex;
   flex-direction: row;
   gap: 17px;
@@ -126,8 +126,10 @@ background-color: #831B1B;
   text-align: left;
   font: 400 16px "Inter", sans-serif;
   position: relative;
-}
-.frame-25 {
+} 
+
+
+.frame-25  {
   display: flex;
   flex-direction: row;
   gap: 14px;
@@ -135,19 +137,26 @@ background-color: #831B1B;
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
+  color: #000000;
+  text-align: left;
+  font: 400 16px "Inter", sans-serif;
+  position: relative;
+  text-decoration: none;
 }
-.edit-1 {
+.edit-1   {
   flex-shrink: 0;
   width: 32px;
   height: 32px;
   position: relative;
 }
-.editar-perfil {
+
+.editar-perfil  {
   color: #000000;
   text-align: left;
   font: 400 16px "Inter", sans-serif;
   position: relative;
 }
+
 .frame-29 {
   display: flex;
   flex-direction: row;
@@ -163,12 +172,7 @@ background-color: #831B1B;
   height: 32px;
   position: relative;
 }
-.sobre-nosotros {
-  color: #000000;
-  text-align: left;
-  font: 400 16px "Inter", sans-serif;
-  position: relative;
-}
+
 .frame-30 {
   display: flex;
   flex-direction: row;
@@ -190,7 +194,7 @@ background-color: #831B1B;
   font: 400 16px "Inter", sans-serif;
   position: relative;
 }
-.frame-31 {
+.frame-31  {
   display: flex;
   flex-direction: row;
   gap: 15px;
@@ -198,6 +202,11 @@ background-color: #831B1B;
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
+  color: #000000;
+  text-align: left;
+  font: 400 16px "Inter", sans-serif;
+  position: relative;
+  text-decoration: none;
 }
 .logout-1 {
   flex-shrink: 0;
@@ -211,7 +220,7 @@ background-color: #831B1B;
   text-align: left;
   font: 400 16px "Inter", sans-serif;
   position: relative;
-  text-decoration-line: none ;
+  text-decoration: none;
 
 
 }
