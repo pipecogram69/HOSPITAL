@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+.contactenos * {
+  box-sizing: border-box;
+}
+.contactenos {
+  background: #ffe4e1;
+  width: 428px;
+  height: 926px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-33 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 187px;
+  top: 17px;
+  overflow: hidden;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5 {
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  width: 415px;
+  height: 68px;
+  position: absolute;
+  left: 6px;
+  top: 17px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.text-align-justify {
+  width: 31.03px;
+  height: 29.81px;
+  position: absolute;
+  left: 33.15px;
+  top: 37.49px;
+  overflow: visible;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 38px;
+  top: 37px;
+}
+.arrow-left {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.contactenos2 {
+  text-align: center;
+  font: 700 29px "Inter-Bold", sans-serif;
+  position: relative;
+  width: 245px;
+  height: 22px;
+}
+.contactenos-2-span {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.contactenos-2-span2 {
+  color: #701818;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.contactenos-2-span3 {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.rectangle-18 {
+  background: #fffefe;
+  width: 396px;
+  height: 783px;
+  position: absolute;
+  left: 16px;
+  top: 112px;
+}
+.cont-ctenos-nos-encantar-a-escuchar-de-usted-si-tiene-alguna-pregunta-comentario-o-sugerencia-no-dude-en-ponerse-en-contacto-con-nosotros-direcci-n-de-la-oficina-principal-calle-123-bogot-distrito-capital-colombia-horario-de-atenci-n-lunes-a-viernes-8-00-am-5-00-pm-s-bados-9-00-am-1-00-pm-tel-fono-57-1-2345678-correo-electr-nico-contacto-nuestrohospital-com-tambi-n-puede-enviarnos-un-mensaje-directamente-a-trav-s-de-la-funci-n-de-chat-en-nuestra-aplicaci-n-estamos-comprometidos-a-responder-a-todas-las-consultas-en-un-plazo-de-24-horas-esperamos-tener-noticias-suyas-pronto {
+  color: #000000;
+  text-align: left;
+  font: 400 20px "-", sans-serif;
+  position: absolute;
+  left: 37px;
+  top: 136px;
+  width: 362px;
+  height: 609px;
+}
+.cont-ctenos-nos-encantar-a-escuchar-de-usted-si-tiene-alguna-pregunta-comentario-o-sugerencia-no-dude-en-ponerse-en-contacto-con-nosotros-direcci-n-de-la-oficina-principal-calle-123-bogot-distrito-capital-colombia-horario-de-atenci-n-lunes-a-viernes-8-00-am-5-00-pm-s-bados-9-00-am-1-00-pm-tel-fono-57-1-2345678-correo-electr-nico-contacto-nuestrohospital-com-tambi-n-puede-enviarnos-un-mensaje-directamente-a-trav-s-de-la-funci-n-de-chat-en-nuestra-aplicaci-n-estamos-comprometidos-a-responder-a-todas-las-consultas-en-un-plazo-de-24-horas-esperamos-tener-noticias-suyas-pronto-span {
+  color: #000000;
+  font: 800 20px "Inter-ExtraBold", sans-serif;
+}
+.cont-ctenos-nos-encantar-a-escuchar-de-usted-si-tiene-alguna-pregunta-comentario-o-sugerencia-no-dude-en-ponerse-en-contacto-con-nosotros-direcci-n-de-la-oficina-principal-calle-123-bogot-distrito-capital-colombia-horario-de-atenci-n-lunes-a-viernes-8-00-am-5-00-pm-s-bados-9-00-am-1-00-pm-tel-fono-57-1-2345678-correo-electr-nico-contacto-nuestrohospital-com-tambi-n-puede-enviarnos-un-mensaje-directamente-a-trav-s-de-la-funci-n-de-chat-en-nuestra-aplicaci-n-estamos-comprometidos-a-responder-a-todas-las-consultas-en-un-plazo-de-24-horas-esperamos-tener-noticias-suyas-pronto-span2 {
+  color: #000000;
+  font: 300 20px "Inter-Light", sans-serif;
+}
+.cont-ctenos-nos-encantar-a-escuchar-de-usted-si-tiene-alguna-pregunta-comentario-o-sugerencia-no-dude-en-ponerse-en-contacto-con-nosotros-direcci-n-de-la-oficina-principal-calle-123-bogot-distrito-capital-colombia-horario-de-atenci-n-lunes-a-viernes-8-00-am-5-00-pm-s-bados-9-00-am-1-00-pm-tel-fono-57-1-2345678-correo-electr-nico-contacto-nuestrohospital-com-tambi-n-puede-enviarnos-un-mensaje-directamente-a-trav-s-de-la-funci-n-de-chat-en-nuestra-aplicaci-n-estamos-comprometidos-a-responder-a-todas-las-consultas-en-un-plazo-de-24-horas-esperamos-tener-noticias-suyas-pronto-span3 {
+  color: #000000;
+  font: 800 20px "Inter-ExtraBold", sans-serif;
+}
+.cont-ctenos-nos-encantar-a-escuchar-de-usted-si-tiene-alguna-pregunta-comentario-o-sugerencia-no-dude-en-ponerse-en-contacto-con-nosotros-direcci-n-de-la-oficina-principal-calle-123-bogot-distrito-capital-colombia-horario-de-atenci-n-lunes-a-viernes-8-00-am-5-00-pm-s-bados-9-00-am-1-00-pm-tel-fono-57-1-2345678-correo-electr-nico-contacto-nuestrohospital-com-tambi-n-puede-enviarnos-un-mensaje-directamente-a-trav-s-de-la-funci-n-de-chat-en-nuestra-aplicaci-n-estamos-comprometidos-a-responder-a-todas-las-consultas-en-un-plazo-de-24-horas-esperamos-tener-noticias-suyas-pronto-span4 {
+  color: #000000;
+  font: 300 20px "Inter-Light", sans-serif;
+}
+.cont-ctenos-nos-encantar-a-escuchar-de-usted-si-tiene-alguna-pregunta-comentario-o-sugerencia-no-dude-en-ponerse-en-contacto-con-nosotros-direcci-n-de-la-oficina-principal-calle-123-bogot-distrito-capital-colombia-horario-de-atenci-n-lunes-a-viernes-8-00-am-5-00-pm-s-bados-9-00-am-1-00-pm-tel-fono-57-1-2345678-correo-electr-nico-contacto-nuestrohospital-com-tambi-n-puede-enviarnos-un-mensaje-directamente-a-trav-s-de-la-funci-n-de-chat-en-nuestra-aplicaci-n-estamos-comprometidos-a-responder-a-todas-las-consultas-en-un-plazo-de-24-horas-esperamos-tener-noticias-suyas-pronto-span5 {
+  color: #000000;
+  font: 800 20px "Inter-ExtraBold", sans-serif;
+}
+.cont-ctenos-nos-encantar-a-escuchar-de-usted-si-tiene-alguna-pregunta-comentario-o-sugerencia-no-dude-en-ponerse-en-contacto-con-nosotros-direcci-n-de-la-oficina-principal-calle-123-bogot-distrito-capital-colombia-horario-de-atenci-n-lunes-a-viernes-8-00-am-5-00-pm-s-bados-9-00-am-1-00-pm-tel-fono-57-1-2345678-correo-electr-nico-contacto-nuestrohospital-com-tambi-n-puede-enviarnos-un-mensaje-directamente-a-trav-s-de-la-funci-n-de-chat-en-nuestra-aplicaci-n-estamos-comprometidos-a-responder-a-todas-las-consultas-en-un-plazo-de-24-horas-esperamos-tener-noticias-suyas-pronto-span6 {
+  color: #000000;
+  font: 300 20px "Inter-Light", sans-serif;
+}
+.cont-ctenos-nos-encantar-a-escuchar-de-usted-si-tiene-alguna-pregunta-comentario-o-sugerencia-no-dude-en-ponerse-en-contacto-con-nosotros-direcci-n-de-la-oficina-principal-calle-123-bogot-distrito-capital-colombia-horario-de-atenci-n-lunes-a-viernes-8-00-am-5-00-pm-s-bados-9-00-am-1-00-pm-tel-fono-57-1-2345678-correo-electr-nico-contacto-nuestrohospital-com-tambi-n-puede-enviarnos-un-mensaje-directamente-a-trav-s-de-la-funci-n-de-chat-en-nuestra-aplicaci-n-estamos-comprometidos-a-responder-a-todas-las-consultas-en-un-plazo-de-24-horas-esperamos-tener-noticias-suyas-pronto-span7 {
+  color: #000000;
+  font: 800 20px "Inter-ExtraBold", sans-serif;
+}
+.cont-ctenos-nos-encantar-a-escuchar-de-usted-si-tiene-alguna-pregunta-comentario-o-sugerencia-no-dude-en-ponerse-en-contacto-con-nosotros-direcci-n-de-la-oficina-principal-calle-123-bogot-distrito-capital-colombia-horario-de-atenci-n-lunes-a-viernes-8-00-am-5-00-pm-s-bados-9-00-am-1-00-pm-tel-fono-57-1-2345678-correo-electr-nico-contacto-nuestrohospital-com-tambi-n-puede-enviarnos-un-mensaje-directamente-a-trav-s-de-la-funci-n-de-chat-en-nuestra-aplicaci-n-estamos-comprometidos-a-responder-a-todas-las-consultas-en-un-plazo-de-24-horas-esperamos-tener-noticias-suyas-pronto-span8 {
+  color: #000000;
+  font: 300 20px "Inter-Light", sans-serif;
+}
+.cont-ctenos-nos-encantar-a-escuchar-de-usted-si-tiene-alguna-pregunta-comentario-o-sugerencia-no-dude-en-ponerse-en-contacto-con-nosotros-direcci-n-de-la-oficina-principal-calle-123-bogot-distrito-capital-colombia-horario-de-atenci-n-lunes-a-viernes-8-00-am-5-00-pm-s-bados-9-00-am-1-00-pm-tel-fono-57-1-2345678-correo-electr-nico-contacto-nuestrohospital-com-tambi-n-puede-enviarnos-un-mensaje-directamente-a-trav-s-de-la-funci-n-de-chat-en-nuestra-aplicaci-n-estamos-comprometidos-a-responder-a-todas-las-consultas-en-un-plazo-de-24-horas-esperamos-tener-noticias-suyas-pronto-span9 {
+  color: #000000;
+  font: 800 20px "Inter-ExtraBold", sans-serif;
+}
+.cont-ctenos-nos-encantar-a-escuchar-de-usted-si-tiene-alguna-pregunta-comentario-o-sugerencia-no-dude-en-ponerse-en-contacto-con-nosotros-direcci-n-de-la-oficina-principal-calle-123-bogot-distrito-capital-colombia-horario-de-atenci-n-lunes-a-viernes-8-00-am-5-00-pm-s-bados-9-00-am-1-00-pm-tel-fono-57-1-2345678-correo-electr-nico-contacto-nuestrohospital-com-tambi-n-puede-enviarnos-un-mensaje-directamente-a-trav-s-de-la-funci-n-de-chat-en-nuestra-aplicaci-n-estamos-comprometidos-a-responder-a-todas-las-consultas-en-un-plazo-de-24-horas-esperamos-tener-noticias-suyas-pronto-span10 {
+  color: #000000;
+  font: 300 20px "Inter-Light", sans-serif;
+}

@@ -304,7 +304,7 @@ background-color: #831B1B;
   left: 137px;
   top: 825px;
 }
-.frame-12 {
+.frame-12  a {
   background: #831b1b;
   border-radius: 10px;
   padding: 14px 49px 14px 27px;
@@ -316,8 +316,6 @@ background-color: #831B1B;
   width: 191px;
   height: 74px;
   position: relative;
-}
-.camasdispo-1 {
   color: #ffffff;
   text-align: center;
   font: 400 20px "Inter-Regular", sans-serif;
@@ -327,7 +325,9 @@ background-color: #831B1B;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
+
 .image-22 {
   width: 355px;
   height: 254px;

@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.adulto * {
+  box-sizing: border-box;
+}
+.adulto {
+  background: #ffe4e1;
+  width: 428px;
+  height: 926px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-8 {
+  border-radius: 0px;
+  width: 415px;
+  height: 81px;
+  position: absolute;
+  left: 6px;
+  top: 9px;
+  overflow: visible;
+}
+.arrow-left {
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: 19px;
+  top: 31px;
+  overflow: visible;
+}
+.ser-camas-disponibles {
+  text-align: left;
+  font: 700 29px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: 123px;
+  top: 14px;
+  width: 209px;
+  height: 72px;
+}
+.ser-camas-disponibles-span {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.ser-camas-disponibles-span2 {
+  color: #ae3434;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.ser-camas-disponibles-span3 {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.adulto-1 {
+  width: 143px;
+  height: 132px;
+  position: absolute;
+  left: 142px;
+  top: 146px;
+}
+.adu-1-1 {
+  width: 415px;
+  height: 266px;
+  position: absolute;
+  left: 6px;
+  top: 311px;
+}
+.adu-2-1 {
+  width: 415px;
+  height: 178px;
+  position: absolute;
+  left: 6px;
+  top: 610px;
+}

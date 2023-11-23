@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+.camas-disponibles * {
+  box-sizing: border-box;
+}
+.camas-disponibles {
+  background: #ffe4e1;
+  width: 428px;
+  height: 926px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-7 {
+  border-radius: 0px;
+  width: 415px;
+  height: 81px;
+  position: absolute;
+  left: 6px;
+  top: 7px;
+  overflow: visible;
+}
+.ser-camas-disponibles {
+  text-align: left;
+  font: 700 29px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: 116px;
+  top: 11px;
+  width: 209px;
+  height: 72px;
+}
+.ser-camas-disponibles-span {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.ser-camas-disponibles-span2 {
+  color: #ae3434;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.ser-camas-disponibles-span3 {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.arrow-left {
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: 29px;
+  top: 25px;
+  overflow: visible;
+}
+.frame-24 {
+  background: rgba(158, 228, 198, 0.98);
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #83e6da;
+  border-width: 1px;
+  padding: 12px 27px 12px 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 327px;
+  height: 358px;
+  position: absolute;
+  left: 48px;
+  top: 137px;
+}
+.porcentaje-de-ocupaci-n-de-los-servicios-de-hospitalizaci-n-general-unidad-de-cuidado-intermedio-y-unidad-de-cuidado-intensivo-en-bogota-d-c {
+  color: #060606;
+  text-align: center;
+  font: 300 italic 28px "Inter-LightItalic", sans-serif;
+  position: relative;
+  width: 271px;
+  height: 313px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.salud-1 {
+  width: 132px;
+  height: 141px;
+  position: absolute;
+  left: 148px;
+  top: 527px;
+}
+.frame-13 a{
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 14px 49px 14px 27px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 166px;
+  height: 68px;
+  position: absolute;
+  left: 23px;
+  top: 700px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #000000;
+  text-align: center;
+  font: 400 20px "Inter-Regular", sans-serif;
+  position: relative;
+ text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame-25 a  {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 14px 49px 14px 27px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 166px;
+  height: 68px;
+  position: absolute;
+  left: 233px;
+  top: 700px;
+  color: #000000;
+  text-align: center;
+  font: 400 20px "Inter-Regular", sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  
+}
+
+.frame-132 a  {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 14px 49px 14px 27px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 163px;
+  height: 62px;
+  position: absolute;
+  left: 130px;
+  top: 800px;
+  color: #000000;
+  text-align: center;
+  font: 400 20px "Inter-Regular", sans-serif;
+text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

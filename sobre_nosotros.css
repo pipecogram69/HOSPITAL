@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+.sobre-nosotros * {
+  box-sizing: border-box;
+}
+.sobre-nosotros {
+  background: #ffe4e1;
+  width: 428px;
+  height: 926px;
+  position: relative;
+  overflow: hidden;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5 {
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  width: 415px;
+  height: 68px;
+  position: absolute;
+  left: 6px;
+  top: 17px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.text-align-justify {
+  width: 31.03px;
+  height: 29.81px;
+  position: absolute;
+  left: 33.15px;
+  top: 37.49px;
+  overflow: visible;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 38px;
+  top: 37px;
+}
+.arrow-left {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.sobre-nosotros2 {
+  text-align: left;
+  font: 700 29px "Inter-Bold", sans-serif;
+  position: relative;
+}
+.sobre-nosotros-2-span {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.sobre-nosotros-2-span2 {
+  color: #701818;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.sobre-nosotros-2-span3 {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.rectangle-16 {
+  width: 217px;
+  height: 412px;
+  position: absolute;
+  left: 0px;
+  top: 85px;
+}
+.rectangle-17 {
+  width: 211px;
+  height: 429px;
+  position: absolute;
+  left: 217px;
+  top: 497px;
+}
+.somos-una-red-de-hospitales-comprometidos-con-la-mejora-continua-de-la-atenci-n-sanitaria-nuestra-red-consta-de-varios-hospitales-cada-uno-de-los-cuales-ofrece-una-variedad-de-servicios-como-traumatolog-a-medicina-interna-urolog-a-entre-otros {
+  color: #000000;
+  text-align: center;
+  font: 400 20px "Itim-Regular", sans-serif;
+  position: absolute;
+  left: 231px;
+  top: 124px;
+  width: 184px;
+  height: 326px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nuestro-objetivo-es-optimizar-la-gesti-n-de-los-servicios-sanitarios-especialmente-en-lo-que-se-refiere-a-la-atenci-n-al-paciente-a-trav-s-de-la-automatizaci-n-de-ciertos-aspectos-de-nuestra-gesti-n {
+  color: #000000;
+  text-align: center;
+  font: 400 20px "Itim-Regular", sans-serif;
+  position: absolute;
+  left: 12px;
+  top: 545px;
+  width: 193px;
+  height: 319px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
