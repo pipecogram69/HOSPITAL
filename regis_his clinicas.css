@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #831B1B;
+    background-size: cover;
+    background-position: center;
+
+}
+.historias-clinicas-registrar * {
+  box-sizing: border-box;
+}
+.historias-clinicas-registrar {
+  background: #ffe4e1;
+  width: 428px;
+  height: 926px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-5 {
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  width: 415px;
+  height: 68px;
+  position: absolute;
+  left: 6px;
+  top: 14px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.arrow-left {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 29px;
+  top: 35px;
+  overflow: visible;
+}
+.historias-clinicas {
+  text-align: left;
+  font: 700 29px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: 81px;
+  top: 35px;
+  width: 434px;
+  height: 39px;
+}
+.historias-clinicas-span {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.historias-clinicas-span2 {
+  color: #831b1b;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.historias-clinicas-span3 {
+  color: #000000;
+  font: 700 29px "Inter-Bold", sans-serif;
+}
+.firstname {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 20px 9px 23px 18px;
+  display: flex;
+  flex-direction: row;
+  gap: 188px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 392px;
+  height: 190px;
+  position: absolute;
+  left: 18px;
+  top: 344px;
+}
+.frame-16 {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 356px;
+  position: relative;
+}
+.frame-15 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-8 {
+  flex-shrink: 0;
+  width: 171px;
+  height: 92px;
+  position: relative;
+}
+.frame-14 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.cod-hist-153201 {
+  color: #000000;
+  text-align: left;
+  font: 700 20px "Inter-Bold", sans-serif;
+  position: relative;
+}
+.frame-13 {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 241px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.frame-12 {
+  background: #831b1b;
+  border-radius: 10px;
+  padding: 14px 49px 14px 23px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 339px;
+  position: relative;
+}
+.registrar {
+  color: #ffffff;
+  text-align: center;
+  font: 400 16px "Inter-Regular", sans-serif;
+  position: relative;
+  width: 243px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstname2 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 20px 9px 23px 18px;
+  display: flex;
+  flex-direction: row;
+  gap: 188px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 392px;
+  height: 190px;
+  position: absolute;
+  left: 18px;
+  top: 138px;
+}
+.cod-hist-653201 {
+  color: #000000;
+  text-align: left;
+  font: 700 20px "Inter-Bold", sans-serif;
+  position: relative;
+}
+.firstname3 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(35, 31, 32, 0.51);
+  border-width: 1px;
+  padding: 20px 9px 23px 18px;
+  display: flex;
+  flex-direction: row;
+  gap: 188px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 392px;
+  height: 190px;
+  position: absolute;
+  left: 18px;
+  top: 550px;
+}
+.cod-hist-896201 {
+  color: #000000;
+  text-align: left;
+  font: 700 20px "Inter-Bold", sans-serif;
+  position: relative;
+}
+.firstname4  a {
+  background: #000000;
+  border-radius: 10px;
+  padding: 24px 148px 24px 148px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 149px;
+  height: 62px;
+  position: absolute;
+  left: 70px;
+  top: 782px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Inter-Regular", sans-serif;
+  position: relative;
+  text-decoration: none;
+}
